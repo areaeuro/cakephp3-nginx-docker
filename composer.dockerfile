@@ -1,4 +1,4 @@
-FROM composer:1.6
+FROM composer:latest
 
 RUN apk update && apk add --no-cache icu-dev \
     libxml2-dev

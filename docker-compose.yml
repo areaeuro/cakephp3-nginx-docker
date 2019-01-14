@@ -23,9 +23,11 @@ services:
     volumes:
     - ./app:/app
   mariadb:
-    image: mariadb:10
+    image: mariadb:10.4
     environment:
       - MYSQL_ROOT_PASSWORD=123456
       - MYSQL_DATABASE=cakephp
+    volumes:
+    - ./database:/var/lib/mysql
     ports:
     - "4306:3306"
