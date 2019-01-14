@@ -1,10 +1,10 @@
 # cakephp3-nginx-docker
-A little tool to run CakePHP 3 apps within docker. Based on nginx and PHP 7.2 FPM
+A little tool to run CakePHP 3 apps within docker. Based on nginx and PHP 7.3 FPM
 
 ## Setup
 First, make sure that you have installed the latest version of [Docker](https://www.docker.com/get-docker) and [Docker Compose](https://docs.docker.com/compose/install/#install-compose).
 
-To download the complete environment, including the CakePHP 3.5 app scaffold, simply clone the repo and checkout the submodules recursively
+To download the complete environment, including the CakePHP 3.7 app scaffold, simply clone the repo and checkout the submodules recursively
 
 ```
 $ git clone --recurse-submodules https://github.com/jantede/cakephp3-nginx-docker.git
