@@ -7,7 +7,7 @@ First, make sure that you have installed the latest version of [Docker](https://
 To download the complete environment, including the CakePHP 3.7 app scaffold, simply clone the repo and checkout the submodules recursively
 
 ```
-$ git clone https://github.com/areaeuro/cakephp3-nginx-docker.git
+$ git clone --recurse-submodules https://github.com/areaeuro/cakephp3-nginx-docker.git
 
 ```
 
